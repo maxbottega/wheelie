@@ -1,0 +1,79 @@
+fileFormatVersion: 2
+guid: ba619e4cad9faf443a41f30481b7df20
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: F_bone
+    100002: Mesh
+    100004: R_bone
+    100006: //RootNode
+    100008: Thread_Mesh
+    100010: Transform Effector
+    100012: Transform Effector_2
+    100014: Transform Effector_3
+    400000: F_bone
+    400002: Mesh
+    400004: R_bone
+    400006: //RootNode
+    400008: Thread_Mesh
+    400010: Transform Effector
+    400012: Transform Effector_2
+    400014: Transform Effector_3
+    4300000: Mesh
+    4300002: Thread_Mesh
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Mesh
+    13700002: Thread_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 
