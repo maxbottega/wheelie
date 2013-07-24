@@ -1,44 +1,50 @@
 fileFormatVersion: 2
-guid: ff72abb2ca89d744b94b6159e156c092
+guid: 16d22558eac662d4080ad3a248912f18
 ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
-    100000: Camera
-    100002: coin_bronze
-    100004: coin_gold
-    100006: coin_silver
-    100008: coins_fuel__Image___Texture_
-    100010: Directional_Light
-    100012: Fuel
-    100014: //RootNode
-    100016: Render
-    100018: Texture_Group
-    100020: Directional Light
-    100022: Texture Group
-    400000: Camera
-    400002: coin_bronze
-    400004: coin_gold
-    400006: coin_silver
-    400008: coins_fuel__Image___Texture_
-    400010: Directional_Light
-    400012: Fuel
-    400014: //RootNode
-    400016: Render
-    400018: Texture_Group
-    400020: Directional Light
-    400022: Texture Group
-    2300000: coin_bronze
-    2300002: coin_gold
-    2300004: coin_silver
-    2300006: Fuel
-    3300000: coin_bronze
-    3300002: coin_gold
-    3300004: coin_silver
-    3300006: Fuel
-    4300000: coin_silver
-    4300002: coin_bronze
-    4300004: coin_gold
-    4300006: Fuel
+    100000: Box_1
+    100002: Cube
+    100004: Ramp_1
+    100006: Ramp_2
+    100008: Ramp_3
+    100010: Ramp_4
+    100012: Ramp_5
+    100014: Ramp_6
+    100016: //RootNode
+    400000: Box_1
+    400002: Cube
+    400004: Ramp_1
+    400006: Ramp_2
+    400008: Ramp_3
+    400010: Ramp_4
+    400012: Ramp_5
+    400014: Ramp_6
+    400016: //RootNode
+    2300000: Box_1
+    2300002: Cube
+    2300004: Ramp_1
+    2300006: Ramp_2
+    2300008: Ramp_3
+    2300010: Ramp_4
+    2300012: Ramp_5
+    2300014: Ramp_6
+    3300000: Box_1
+    3300002: Cube
+    3300004: Ramp_1
+    3300006: Ramp_2
+    3300008: Ramp_3
+    3300010: Ramp_4
+    3300012: Ramp_5
+    3300014: Ramp_6
+    4300000: Ramp_3
+    4300002: Cube
+    4300004: Ramp_2
+    4300006: Ramp_1
+    4300008: Ramp_4
+    4300010: Ramp_5
+    4300012: Ramp_6
+    4300014: Box_1
     9500000: //RootNode
   materials:
     importMaterials: 1
