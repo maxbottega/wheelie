@@ -19,8 +19,19 @@ public abstract class PlayMakerCollectionProxy : MonoBehaviour {
     }
 	*/
 	
-	public enum VariableEnum{
-		 GameObject,Int,Float,String,Bool,Vector2,Vector3,Rect,Quaternion,Color,Material,Texture
+	public enum VariableEnum{ // WARNING: DO NOT INSERT ITEM: IT CORRUPTS EXISTING PROXIES SELECTION
+		GameObject,
+		Int,
+		Float,
+		String,
+		Bool,
+		Vector3,
+		Rect,
+		Quaternion,
+		Color,
+		Material,
+		Texture,
+		Vector2
 	}
 		
 	//- EDITING STUFF

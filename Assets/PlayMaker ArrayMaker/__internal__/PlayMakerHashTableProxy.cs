@@ -141,9 +141,9 @@ public class PlayMakerHashTableProxy : PlayMakerCollectionProxy {
 				case (VariableEnum.Texture):
 					hashTable[preFillKeyList[i]] = preFillTextureList[i];;	
 					break;
-				case (VariableEnum.Vector2):
-					hashTable[preFillKeyList[i]] = preFillVector2List[i];		
-					break;
+//				case (VariableEnum.Vector2):
+				//	hashTable[preFillKeyList[i]] = preFillVector2List[i];		
+				//	break;
 				case (VariableEnum.Vector3):
 					hashTable[preFillKeyList[i]] = preFillVector3List[i];		
 					break;

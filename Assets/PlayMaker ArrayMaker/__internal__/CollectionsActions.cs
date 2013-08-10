@@ -19,7 +19,7 @@ namespace HutongGames.PlayMaker.Actions
 		// right now, I can't find another way then have the user select the type, and expose all variables type.
 		// I am sure it's there... just could not find it, find one with an Unknown entry tho, not just the usable ones.
 		public enum FsmVariableEnum{
-		 FsmGameObject,FsmInt,FsmFloat,FsmString,FsmBool,FsmVector3,FsmRect,FsmQuaternion,FsmColor,FsmMaterial,FsmTexture,FsmObject
+		 FsmGameObject,FsmInt,FsmFloat,FsmString,FsmBool,FsmVector2,FsmVector3,FsmRect,FsmQuaternion,FsmColor,FsmMaterial,FsmTexture,FsmObject
 		}
 		
 		

@@ -17,9 +17,7 @@ namespace HutongGames.PlayMaker.Actions
 	[Tooltip("Add an item to a PlayMaker Array List Proxy component")]
 	public class ArrayListAdd : ArrayListActions
 	{
-		[ObjectType(typeof(PlayMakerArrayListProxy))]
-		public FsmObject arrayList;
-		
+
 		[ActionSection("Set up")]
 		
 		[RequiredField]

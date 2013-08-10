@@ -354,6 +354,7 @@ public class PlayMakerCollectionProxyInspector : Editor {
 							EditorGUILayout.EndHorizontal();
 						}
 						break;
+				/*
 					case (PlayMakerCollectionProxy.VariableEnum.Vector2):
 						for(int i=0;i<proxy.preFillCount;i++){
 							if (proxy.preFillVector2List.Count<(i+1)){
@@ -384,7 +385,7 @@ public class PlayMakerCollectionProxyInspector : Editor {
 							EditorGUILayout.EndHorizontal();
 						}
 						break;
-				
+				*/
 					case (PlayMakerCollectionProxy.VariableEnum.Vector3):
 						for(int i=0;i<proxy.preFillCount;i++){
 							if (proxy.preFillVector3List.Count<(i+1)){

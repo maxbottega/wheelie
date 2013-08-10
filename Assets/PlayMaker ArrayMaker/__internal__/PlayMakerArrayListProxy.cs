@@ -214,9 +214,9 @@ public class PlayMakerArrayListProxy : PlayMakerCollectionProxy {
 			case (VariableEnum.Texture):
 				arrayList.InsertRange(0,preFillTextureList);	
 				break;
-			case (VariableEnum.Vector2):
-				arrayList.InsertRange(0,preFillVector2List);		
-				break;
+		//	case (VariableEnum.Vector2):
+		//		arrayList.InsertRange(0,preFillVector2List);		
+		//		break;
 			case (VariableEnum.Vector3):
 				arrayList.InsertRange(0,preFillVector3List);		
 				break;

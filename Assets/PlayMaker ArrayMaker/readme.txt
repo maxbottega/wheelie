@@ -1,4 +1,5 @@
 (c) Jean Fabre, 2011-2013 All rights reserved.
+This package is released under LGPL license: http://opensource.org/licenses/LGPL-3.0.
 http://www.fabrejean.net
 contact: http://www.fabrejean.net/contact.htm
 
