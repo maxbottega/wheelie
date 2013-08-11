@@ -46,14 +46,17 @@ public class Car4WDControl : MonoBehaviour
 
  	public bool m_WheelBRGrounded;
 	
+	
+	public float m_fwdDrive = 0;
 
 	
-
-	public Joystick m_AcceleratorPad = null;
-
-	public Joystick m_BrakePad = null;
-
 	
+
+	//public Joystick m_AcceleratorPad = null;
+
+	//public Joystick m_BrakePad = null;
+
+	float m_tiltInput = 0;
 
 	private Transform[] wheels = null;
 
@@ -63,9 +66,6 @@ public class Car4WDControl : MonoBehaviour
 
 	Vector3[] targetPosition =  new Vector3[4];
 
-	float m_fwdDrive = 0;
-
-	float m_tiltInput = 0;
 
 	
 
@@ -156,18 +156,19 @@ public class Car4WDControl : MonoBehaviour
 		}
 
 		
-
-#if ((UNITY_IPHONE || UNITY_ANDROID) && !UNITY_EDITOR)
-
-		m_fwdDrive = m_AcceleratorPad.tapCount > 0 ? m_EngineDrive : 0;
-
-		m_fwdDrive = m_BrakePad.tapCount > 0 ? -m_EngineDrive : m_fwdDrive;
-
-#elif UNITY_EDITOR || UNITY_STANDALONE_OSX || UNITY_STANDALONE_WIN || UNITY_WEBPLAYER
-
-		m_fwdDrive = Input.GetAxis("Horizontal") * m_EngineDrive;
-
-#endif	
+// qui sotto è commentato perchè ho spostato il controllo dell'input su dei semplici bottoni
+		
+//#if ((UNITY_IPHONE || UNITY_ANDROID) && !UNITY_EDITOR)
+//
+//		m_fwdDrive = m_AcceleratorPad.tapCount > 0 ? m_EngineDrive : 0;
+//
+//		m_fwdDrive = m_BrakePad.tapCount > 0 ? -m_EngineDrive : m_fwdDrive;
+//
+//#elif UNITY_EDITOR || UNITY_STANDALONE_OSX || UNITY_STANDALONE_WIN || UNITY_WEBPLAYER
+//
+//		m_fwdDrive = Input.GetAxis("Horizontal") * m_EngineDrive;
+//
+//#endif	
 
 	}
 
