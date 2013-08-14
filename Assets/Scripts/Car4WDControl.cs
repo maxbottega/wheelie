@@ -46,16 +46,19 @@ public class Car4WDControl : MonoBehaviour
 
  	public bool m_WheelBRGrounded;
 	
-	
-	public float m_fwdDrive = 0;
+	public float m_MaxAngularSpeed;
+
+
 
 	
 	
 
-	//public Joystick m_AcceleratorPad = null;
+	public Joystick m_AcceleratorPad = null;
 
-	//public Joystick m_BrakePad = null;
+	public Joystick m_BrakePad = null;
 
+	float m_fwdDrive = 0;
+	
 	float m_tiltInput = 0;
 
 	private Transform[] wheels = null;
@@ -155,20 +158,19 @@ public class Car4WDControl : MonoBehaviour
 
 		}
 
+
 		
-// qui sotto è commentato perchè ho spostato il controllo dell'input su dei semplici bottoni
-		
-//#if ((UNITY_IPHONE || UNITY_ANDROID) && !UNITY_EDITOR)
-//
-//		m_fwdDrive = m_AcceleratorPad.tapCount > 0 ? m_EngineDrive : 0;
-//
-//		m_fwdDrive = m_BrakePad.tapCount > 0 ? -m_EngineDrive : m_fwdDrive;
-//
-//#elif UNITY_EDITOR || UNITY_STANDALONE_OSX || UNITY_STANDALONE_WIN || UNITY_WEBPLAYER
-//
-//		m_fwdDrive = Input.GetAxis("Horizontal") * m_EngineDrive;
-//
-//#endif	
+#if ((UNITY_IPHONE || UNITY_ANDROID) && !UNITY_EDITOR)
+
+		m_fwdDrive = m_AcceleratorPad.tapCount > 0 ? m_EngineDrive : 0;
+
+		m_fwdDrive = m_BrakePad.tapCount > 0 ? -m_EngineDrive : m_fwdDrive;
+
+#elif UNITY_EDITOR || UNITY_STANDALONE_OSX || UNITY_STANDALONE_WIN || UNITY_WEBPLAYER
+
+		m_fwdDrive = Input.GetAxis("Horizontal") * m_EngineDrive;
+
+#endif	
 
 	}
 
@@ -353,9 +355,10 @@ public class Car4WDControl : MonoBehaviour
 
  			//rigidbody.AddRerlativeTorque(-m_fwdDrive*m_TiltTorqueMultiplier, 0, 0, ForceMode.Force);
 
-			rigidbody.AddTorque(m_tiltInput*m_TiltTorqueMultiplier, 0, 0, ForceMode.Force);
+			rigidbody.AddRelativeTorque(m_tiltInput*m_TiltTorqueMultiplier, 0, 0, ForceMode.Impulse);
 
-			rigidbody.SetMaxAngularVelocity(10);
+			rigidbody.SetMaxAngularVelocity(m_MaxAngularSpeed);
+			
 
 		}
 
