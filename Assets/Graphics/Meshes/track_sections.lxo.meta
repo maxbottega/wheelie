@@ -2204,6 +2204,22 @@ ModelImporter:
     104396: side  8
     104398: side  9
     104400: Fuel_0  1
+    104402: side__10_
+    104404: side__11_
+    104406: side__12_
+    104408: side__13_
+    104410: side__14_
+    104412: side__15_
+    104414: side__16_
+    104416: side__17_
+    104418: side__2_
+    104420: side__3_
+    104422: side__4_
+    104424: side__5_
+    104426: side__6_
+    104428: side__7_
+    104430: side__8_
+    104432: side__9_
     400000: anchor
     400002: anchor__10_
     400004: anchor__11_
@@ -4405,6 +4421,22 @@ ModelImporter:
     404396: side  8
     404398: side  9
     404400: Fuel_0  1
+    404402: side__10_
+    404404: side__11_
+    404406: side__12_
+    404408: side__13_
+    404410: side__14_
+    404412: side__15_
+    404414: side__16_
+    404416: side__17_
+    404418: side__2_
+    404420: side__3_
+    404422: side__4_
+    404424: side__5_
+    404426: side__6_
+    404428: side__7_
+    404430: side__8_
+    404432: side__9_
     2300000: Section_01_mesh
     2300002: Section_02_mesh
     2300004: Section_03_mesh
@@ -4570,6 +4602,22 @@ ModelImporter:
     2300324: side  7
     2300326: side  8
     2300328: side  9
+    2300330: side__10_
+    2300332: side__11_
+    2300334: side__12_
+    2300336: side__13_
+    2300338: side__14_
+    2300340: side__15_
+    2300342: side__16_
+    2300344: side__17_
+    2300346: side__2_
+    2300348: side__3_
+    2300350: side__4_
+    2300352: side__5_
+    2300354: side__6_
+    2300356: side__7_
+    2300358: side__8_
+    2300360: side__9_
     3300000: Section_01_mesh
     3300002: Section_02_mesh
     3300004: Section_03_mesh
@@ -4735,6 +4783,22 @@ ModelImporter:
     3300324: side  7
     3300326: side  8
     3300328: side  9
+    3300330: side__10_
+    3300332: side__11_
+    3300334: side__12_
+    3300336: side__13_
+    3300338: side__14_
+    3300340: side__15_
+    3300342: side__16_
+    3300344: side__17_
+    3300346: side__2_
+    3300348: side__3_
+    3300350: side__4_
+    3300352: side__5_
+    3300354: side__6_
+    3300356: side__7_
+    3300358: side__8_
+    3300360: side__9_
     4300000: Section_33_mesh
     4300002: Section_02_mesh
     4300004: Section_03_mesh
@@ -4900,6 +4964,22 @@ ModelImporter:
     4300324: 'side '
     4300326: 'side '
     4300328: 'side '
+    4300330: side__4_
+    4300332: side__2_
+    4300334: side__3_
+    4300336: side__5_
+    4300338: side__6_
+    4300340: side__7_
+    4300342: side__8_
+    4300344: side__9_
+    4300346: side__10_
+    4300348: side__11_
+    4300350: side__12_
+    4300352: side__13_
+    4300354: side__14_
+    4300356: side__15_
+    4300358: side__16_
+    4300360: side__17_
     7400000: modo_Anim
     9500000: //RootNode
   materials:
@@ -4921,10 +5001,12 @@ ModelImporter:
     globalScale: 2
     meshCompression: 0
     addColliders: 0
+    importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
+    weldVertices: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
