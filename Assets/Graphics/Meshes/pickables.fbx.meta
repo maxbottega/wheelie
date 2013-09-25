@@ -1,32 +1,20 @@
 fileFormatVersion: 2
-guid: ff72abb2ca89d744b94b6159e156c092
+guid: b9d49107dc6b7f348bb7803233941848
 ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
-    100000: Camera
-    100002: coin_bronze
-    100004: coin_gold
-    100006: coin_silver
-    100008: coins_fuel__Image___Texture_
-    100010: Directional_Light
-    100012: Fuel
-    100014: //RootNode
-    100016: Render
-    100018: Texture_Group
-    100020: Directional Light
-    100022: Texture Group
-    400000: Camera
-    400002: coin_bronze
-    400004: coin_gold
-    400006: coin_silver
-    400008: coins_fuel__Image___Texture_
-    400010: Directional_Light
-    400012: Fuel
-    400014: //RootNode
-    400016: Render
-    400018: Texture_Group
-    400020: Directional Light
-    400022: Texture Group
+    100000: coin_bronze
+    100002: coin_gold
+    100004: coin_silver
+    100006: Fuel
+    100008: //RootNode
+    100010: Texture Group
+    400000: coin_bronze
+    400002: coin_gold
+    400004: coin_silver
+    400006: Fuel
+    400008: //RootNode
+    400010: Texture Group
     2300000: coin_bronze
     2300002: coin_gold
     2300004: coin_silver
@@ -56,7 +44,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1.5
+    globalScale: .0149999997
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

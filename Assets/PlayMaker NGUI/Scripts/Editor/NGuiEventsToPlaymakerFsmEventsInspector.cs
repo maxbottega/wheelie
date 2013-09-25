@@ -100,7 +100,7 @@ public class NGuiEventsToPlaymakerFsmEventsInspector : Editor
 				
 				if (_target.DoesTargetMissEventImplementation(fsm,_fsmEvent))
 				{
-					_color = PlayMakerPhotonEditorUtility.lightOrange;
+					_color = Color.red;
 					_feedback = "Not used";
 				}
 			
